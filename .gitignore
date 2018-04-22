@@ -1,0 +1,7 @@
+.idea
+*.profile
+profile/
+.idea
+.vscode
+.DS_Store
+node_modules
