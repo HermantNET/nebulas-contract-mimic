@@ -1,11 +1,12 @@
-var _ext = require("../_extensions")
-var BigNumber = _ext.BigNumber,
+var _ext = require("./_extensions"),
+  BigNumber = _ext.BigNumber,
   Blockchain = _ext.Blockchain,
   ContractStorage = _ext.ContractStorage,
   Date = _ext.Date,
   Events = _ext.Events,
   LocalContractStorage = _ext.LocalContractStorage
 
+// Contract definition
 var ChatContract = function() {
   LocalContractStorage.defineMapProperty(this, "users")
   LocalContractStorage.defineMapProperty(this, "messages")
