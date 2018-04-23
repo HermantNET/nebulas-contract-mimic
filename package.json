@@ -4,13 +4,19 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Thomas E Herman Jr",
   "license": "ISC",
   "dependencies": {
+    "ansicolors": "^0.3.2",
     "bignumber.js": "4.1.0",
-    "lodash": "^4.17.5"
+    "cardinal": "^1.0.0",
+    "got": "^8.3.0",
+    "lodash": "^4.17.5",
+    "uglify-es": "^3.3.9",
+    "uglify-js": "^3.3.22"
   },
   "devDependencies": {
     "prettier": "^1.12.1"
