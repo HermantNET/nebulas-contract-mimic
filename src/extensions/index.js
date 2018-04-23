@@ -83,9 +83,10 @@ const logContract = (minify = false) => {
 }
 
 // Configure environment
-Date.constructor = () => {
-  console.log("Date is not allowed in nvm.")
-  return Date.constructor(...arguments)
+const date = Date
+Date = function() {
+  console.log(colors.red("WARNING: ") + "Date is not allowed in nvm.")
+  return date
 }
 
 Math.random = () => {

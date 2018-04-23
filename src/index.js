@@ -15,7 +15,7 @@ logContract(true)
 const test = async () => {
   // Testing
   log(colors.yellow("\n* * INFO * *\n"))
-  await ext.estimateGasDeploy()
+  // await ext.estimateGasDeploy()
 
   contract.newUser("Bobby Jenkins")
   contract.sendMessage("Hello, world!")
